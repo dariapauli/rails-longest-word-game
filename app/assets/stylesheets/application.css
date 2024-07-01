@@ -14,17 +14,31 @@
  *= require_self
  */
 
- li {
+ body {
+  padding: 0 24px;
+ }
+
+ h1, p, .input-group {
+  padding: 10px;
+ }
+
+ .letters {
+  padding-left: 0;
+  font-size: 24px;
+ }
+
+ .letters li {
   list-style-type: none;
-  display: inline-block;
-  padding: 5px;
+  display: inline;
+  padding: 4px 12px;
   background-color: #3398dc;
   color: #FFFFFF;
-  border: 1px solid #3398;
   box-shadow: 2px 2px 2px lightgray;
   font-family: courier;
-  width: 40px;
-  height: 40px;
   margin: 10px;
   text-align: center;
+ }
+
+ .form-prefix {
+  margin-top: 2em;
  }
